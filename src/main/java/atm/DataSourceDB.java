@@ -1,8 +1,13 @@
 package atm;
 
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
 import java.util.HashMap;
 import java.util.Map;
 
+@Component
+@Primary
 public class DataSourceDB implements DataSource {
 
     /**
